@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html,body,#container{
+    margin:0;
+    width:100%;
+    height:100%;
+    font-family:'Cafe24Ssurround';
+}
+
+#container{
+    display:flex;
+    flex-direction:column;
+}
+
+#upload_panel,#list_panel{
+    flex-grow:1;
+}
+#navigation{
+    height:80px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:#001100;
+}
+#navigation button{
+    width:70px;
+    height:70px;
+}
+
+
+
+button{
+    background-size:cover,contain !important;
+    border:none;
+    outline:none;
+}
+
+#upload_button{
+    background:url('images/upload_button2.png');
+
+}
+
+#list_button{
+    background:url('images/list_button.png');
+    
+}
+
+#title_input{
+    display:block;
+    outline: none;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 2px;
+}
+
+#upload_upload_button{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    background-color: antiquewhite;
+}
+
+#video_input_box label {
+	margin-top:70px;
+    display: flex;
+    width:100%;
+    height: 170px;
+    box-sizing:border-box;
+    padding:auto;
+    
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+    border:3px dotted orange;
+    transition:background-color 0.2s;
+
+    justify-content: center;
+    align-items: center;
+}
+#video_input_box label p{
+    font-size:30px;
+}
+#video_input_box label:hover{
+    border-style:dashed;
+    background-color:rgb(185, 239, 252);
+}
+#video_input_box input[type="file"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+}
+
+.download_video{
+    background:url('images/download_video.png');
+    background-size:cover,contain;
+    height:60px;
+    width:60px;
+    border-radius:5px;
+    margin-right:10px;
+}
+
+.download_button{
+    background:url('images/download_button.png');
+    background-size:cover,contain;
+    height:60px;
+    width:60px;
+    border-radius:5px;
+}
+.download_button:active{
+    background-color: yellow;
+}
+
+
+#sheet_list{
+    list-style:none;
+    padding:0;
+    margin:20px;
+}
+
+.sheet_container{
+    background-color:rgb(184,233,255);
+    border-radius:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px 20px;
+    padding-left:40px;
+    margin: 10px;
+    height:80px;
+}
+.sheet_container span{
+    font-size:20px;
+    
+}
+.sheet_container > span{
+    display:flex;
+}
+
+#loading_display{
+    text-align:center;
+    position:relative;
+}
+#loading_loading{
+    position:absolute;
+    top:70px;
+    left:80px;
+    width:200px;
+    height:200px;
+}
+
+#loading_back{
+    position:absolute;
+    top:90px;
+    left:0px;
+}
+#loading_label{
+    font-size:30px;
+    position:absolute;
+    top:240px;
+    left:95px;
+}
+
+.header{
+    color:white;
+    background-color:black;
+    margin:0;
+    padding:10px;
+    font-size:30px;
+}

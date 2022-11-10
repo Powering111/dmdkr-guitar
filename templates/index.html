@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>악보 업로드</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="upload_panel">
+            <h1 class="header">동영상 업로드</h1>
+            <input type="text" id="title_input" placeholder="제목">
+            <div id="video_input_box">
+                <label for="video_input"><p>파일 업로드</p></label> 
+                <input type="file" id="video_input">
+            </div>
+            
+            <video id="video_preview" style="display:none;" width="100%" controls>
+                <source id="video_preview_source" src="">
+            </video>
+            <button type="button" id="upload_upload_button" onclick="upload()" style="display:none;">업로드</button>
+            <div id="loading_display" style="display:none;text-align:center;">
+                <img src="/static/images/loading.gif" width="200px" id="loading_loading">
+            </div>
+            <button type="button" id="next_upload_button" onclick="reset()" style="display:none;">다른 악보 제작</button>
+        </div>
+        <div id="list_panel" style="display:none;">
+            <h1 class="header">악보 목록</h1>
+            <ul id="sheet_list">
+            </ul>
+            
+        </div>
+
+        <div id="navigation">
+            <button type="button" id="upload_button" onclick="view_upload()"></button>
+            <button type="button" id="list_button" onclick="view_list()"></button>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
