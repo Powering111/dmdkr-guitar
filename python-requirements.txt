@@ -1,0 +1,14 @@
+tensorflow
+numpy
+mediapipe
+opencv-python
+scikit-learn
+torch
+flask
+pandas
+IPython
+pyyaml
+tqdm
+seaborn
+psutil
+music21
