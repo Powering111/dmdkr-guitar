@@ -1,0 +1,11 @@
+LSTM 학습시키기
+YOLO 학습시키기 ✅
+TeachableMachine 학습시키기
+
+① LSTM : Stroke / Stop
+➡️Stroke라면
+② YOLO : 기타 부분 crop
+➡️기타 부분이 인식된다면
+③ TeachableMachine : 기타 코드 분석
+➡️코드 분석 결과 확인
+④ 악보 추출
