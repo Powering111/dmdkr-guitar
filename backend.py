@@ -18,7 +18,7 @@ def analyse_code(filePath,show=False):
     result=[]
     while cap.isOpened():
         now_frame_count+=1
-        if now_frame_count>500:
+        if now_frame_count>300:
             break
         progressbar.update(1)
         ret,img=cap.read()

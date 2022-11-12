@@ -4,6 +4,7 @@ mediapipe
 opencv-python
 scikit-learn
 torch
+torchvision
 flask
 pandas
 IPython

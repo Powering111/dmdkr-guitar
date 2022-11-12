@@ -155,11 +155,7 @@ button{
     position:relative;
 }
 #loading_loading{
-    position:absolute;
-    top:70px;
-    left:80px;
-    width:200px;
-    height:200px;
+
 }
 
 #loading_back{

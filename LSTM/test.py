@@ -17,7 +17,7 @@ hands = mp_hands.Hands(
     min_tracking_confidence=0.5)
 
 cap = cv2.VideoCapture(0)
-#cap=cv2.VideoCapture('C:\\Users\\CSI\\Desktop\\으악기타\\datasetcreate\\videos\\guitar_video_test.mp4')
+#cap=cv2.VideoCapture('시연용/test_2.mp4')
 
 seq = []
 action_seq = []

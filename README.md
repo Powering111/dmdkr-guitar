@@ -15,6 +15,8 @@ backend.py : 기타 영상 처리의 모든 것을 담당
 
 sheet.py : 악보 생성 모듈
 
+code_predict.py : YOLO와 TeachableMachine 동시 시연용 프로그램
+
 processed 폴더와 uploads 폴더 필요
 
 ### LSTM

@@ -151,3 +151,6 @@ cython_debug/
 
 /YOLO/yolov5
 /YOLO/dataset
+
+/uploads/
+/processed/
